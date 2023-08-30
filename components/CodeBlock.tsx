@@ -44,6 +44,7 @@ export const CodeBlock: FC<Props> = ({
         extensions={[StreamLanguage.define(go)]}
         theme={tokyoNight}
         onChange={(value) => onChange(value)}
+        placeholder={'Enter some code and click "Translate"'}
       />
     </div>
   );
