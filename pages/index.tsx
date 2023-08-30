@@ -24,7 +24,10 @@ export default function Home() {
       maxCodeLength = 6000;
     } else if (model === 'gpt-3.5-turbo-16k') {
       maxCodeLength = 24000;
-    } else {
+    }else if (model === 'gpt-3.5-turbo-16k-0613') {
+      maxCodeLength = 24000;
+    } 
+    else {
       maxCodeLength = 12000;
     }
 
